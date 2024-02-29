@@ -6,8 +6,8 @@ Play YouTube videos automatically in OBS using streamer.bot
 ### Api Key   
 
 You will need Youtube API key in order to use this plugin. The plugin uses this to get video length to automatically hide the player.   
-You can find information how to option api key from here: https://developers.google.com/youtube/registering_an_application
-Api key must be put to streamer.bot Variables section Persistent Globals with name `YOUTUBE_API_KEY`   
+You can find information how to option api key from here: https://developers.google.com/youtube/registering_an_application      
+Api key must be put to streamer.bot `Variables` section `Persistent Globals` with name `YOUTUBE_API_KEY`   
 
 ### Installation   
 
