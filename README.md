@@ -11,8 +11,8 @@ Api key must be put to streamer.bot `Variables` section `Persistent Globals` wit
 
 ### Installation   
 
-Create new action in and C# Execute Code subaction. Copy contents of plugins.cs to Execute Code. 
-Add following `References` in `Execute C# Code section`(right click somewhere in references tab):   
+Create new action to Actions tab and add C# Execute Code Sub-Action. Copy contents of plugins.cs to Execute Code. 
+Add following `References` in `Execute C# Code section`(right click somewhere in references tab to add):   
 ```
 mscorlib.dll
 System.XML.dll  
@@ -20,7 +20,7 @@ Google.Apis.YouTube.v3.dll
 Google.Apis.dll   
 Google.Apis.Core.dll    
 ```
-First two can usually be found in the folder what `Add reference from file` opens. Google API libraries can be found in streamerbot installation directory.
+First two can usually be found in the folder what `Add reference from file` opens. Google API libraries can be found in streamer.bot installation directory.
 
 Create following Argument type Sub-Actions:   
 `scene` this is name of your OBS scene    
