@@ -20,11 +20,11 @@ Google.Apis.YouTube.v3.dll
 Google.Apis.dll   
 Google.Apis.Core.dll    
 ```
-First two can usually be found in the folder what `Add reference from file` opens. Google API libraries can be found in streamer.bot installation directory.
+First two can usually be found in the folder what `Add reference from file` opens. Google API libraries can be found in streamer.bot installation directory. You can also try `Find refs` button.
 
 Create following Argument type Sub-Actions:   
-`scene` this is name of your OBS scene    
-`source` this is name of your OBS browser source. Create it yourself in OBS. Script will not create it automatically.               
+- `scene` this is name of your OBS scene    
+- `source` this is name of your OBS browser source. Create it yourself in OBS. Script will not create it automatically.               
 Example:     
    
 ![image](https://github.com/aslaki/streamerbot-yt-player/assets/15368361/f8724b41-82d2-4e12-8889-fbaa5c40d7d3)
