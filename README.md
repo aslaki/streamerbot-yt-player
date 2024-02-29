@@ -24,7 +24,10 @@ First two can usually be found in the folder what `Add reference from file` open
 
 Create following Argument type Sub-Actions:   
 - `scene` this is name of your OBS scene    
-- `source` this is name of your OBS browser source. Create it yourself in OBS. Script will not create it automatically.               
+- `source` this is name of your OBS browser source. Create it yourself in OBS. Script will not create it automatically.
+- `videoUrl` link to your youtube video
+
+Note: These must be put BEFORE the Execute Code block         
 Example:     
    
 ![image](https://github.com/aslaki/streamerbot-yt-player/assets/15368361/f8724b41-82d2-4e12-8889-fbaa5c40d7d3)
